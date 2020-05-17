@@ -56,7 +56,7 @@ public:
 	fout.open("List.txt",ios_base::app); //открываем файл для добавления инфы в конец файла
 	fout << Use.login << " " << Use.pass << " ";
 	fout.close();
-  //Users.push_back(Use);
+
 	}
 
   user GetUser() const
